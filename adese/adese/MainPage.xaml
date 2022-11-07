@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="adese.MainPage">
+
+    <StackLayout BackgroundColor="Blue" VerticalOptions="">
+        <StackLayout BackgroundColor="Blue" Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+
+            <Image Source="https://i.ibb.co/rMV5mks/ADSLogooficial2-3.png" WidthRequest="180" HeightRequest="180"/>
+            <Entry Placeholder="Usuario" TextColor="White" PlaceholderColor="White"/>
+            <Entry Placeholder="Contraseña" IsPassword="True" TextColor="White" PlaceholderColor="White"/>
+            <Button VerticalOptions="Center"
+                    Text="Entrar" TextColor="White" BackgroundColor="Green"
+                    BorderColor="Black"
+                    BorderWidth="1.5"
+                    CornerRadius="50"/>
+
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
